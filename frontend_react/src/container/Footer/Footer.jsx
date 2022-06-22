@@ -20,7 +20,7 @@ const Footer = () => {
   const handleSubmit = () => {
     setLoading(true);
 
-    const contact = {
+    const contact = { 
       _type: 'contact',
       name: formData.username,
       email: formData.email,
@@ -84,3 +84,9 @@ export default AppWrap(
   'contact',
   'app__whitebg',
 );
+
+
+
+
+
+
